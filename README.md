@@ -1,5 +1,6 @@
-# Nociones de Ciberseguridad y otros chiches
+# 🛡️ Nociones de Ciberseguridad y otros chiches
 
+---
 
 # Checklist de Hardening para SSH (OpenSSH)
 
