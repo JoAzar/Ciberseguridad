@@ -1,6 +1,6 @@
 # Checklist de Hardening para SSH (OpenSSH)
 
-(Sólo para el servidor no para el cliente)
+(Solo para el servidor no para el cliente)
 
 ## 1. Actualización
 - [ ] Verificar y mantener OpenSSH actualizado (`>= 9.8p1`)
