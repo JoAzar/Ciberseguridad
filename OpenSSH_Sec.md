@@ -54,7 +54,7 @@ Es importante asegurarte de que tu máquina cliente (desde donde te conectas) es
 Usar claves SSH para autenticarte en lugar de contraseñas. Esto es más seguro, ya que las claves públicas y privadas son mucho más difíciles de adivinar o robar que una contraseña. Al generar las claves, se utiliza un par de claves, y tu máquina cliente solo usa la clave privada para acceder a servidores que tengan la clave pública correspondiente.
 
 ## Protección de la clave privada
-- [ ] Si usas autenticación con claves SSH, asegúrate de que tu clave privada (~/.ssh/id_rsa) esté protegida adecuadamente
+- [ ] Si usas autenticación con claves SSH, asegúrate de que tu clave privada `(~/.ssh/id_rsa)` esté protegida adecuadamente
 - [ ] No compartirla
 - [ ] Usar una contraseña de protección para la clave privada si la estás generando (se recomienda usar una passphrase).
 
