@@ -45,7 +45,7 @@
 
 ---
 
-### Seguridad para el Cliente SSH
+# Seguridad para el Cliente SSH
 
 Es importante asegurarte de que tu máquina cliente (desde donde te conectas) esté bien protegida. Algunas prácticas para mejorar la seguridad en tu máquina cliente incluyen:
 
