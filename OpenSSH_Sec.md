@@ -54,9 +54,9 @@ Es importante asegurarte de que tu máquina cliente (desde donde te conectas) es
 Usar claves SSH para autenticarte en lugar de contraseñas. Esto es más seguro, ya que las claves públicas y privadas son mucho más difíciles de adivinar o robar que una contraseña. Al generar las claves, se utiliza un par de claves, y tu máquina cliente solo usa la clave privada para acceder a servidores que tengan la clave pública correspondiente.
 
 ## Protección de la clave privada
-*Si usas autenticación con claves SSH, asegúrate de que tu clave privada (~/.ssh/id_rsa) esté protegida adecuadamente
-*No compartirla
-*Usar una contraseña de protección para la clave privada si la estás generando (se recomienda usar una passphrase).
+- [ ] Si usas autenticación con claves SSH, asegúrate de que tu clave privada (~/.ssh/id_rsa) esté protegida adecuadamente
+- [ ] No compartirla
+- [ ] Usar una contraseña de protección para la clave privada si la estás generando (se recomienda usar una passphrase).
 
 ## Firewall y medidas locales
 Aunque en general el firewall en el cliente SSH no es tan crítico, es una buena práctica habilitar un firewall y asegurarte de que solo se permita el acceso a puertos necesarios.
@@ -65,7 +65,7 @@ Podes configurar el firewall para permitir solo ciertas conexiones de red, lo qu
 ##Verificar las huellas digitales del servidor:
 Cuando te conectas por SSH a un servidor por primera vez, SSH te pedirá que confirmes la huella digital de la clave pública del servidor al que te estás conectando. Esto es una medida de seguridad para evitar que te conectes a un servidor falso (lo que podría ser parte de un ataque de "man-in-the-middle").
 
-´´´Siempre verifica que la huella digital coincida con la que te proporcionaron administradores del servidor, especialmente si es la primera vez que te conectas.´´´
+`Siempre verifica que la huella digital coincida con la que te proporcionaron administradores del servidor, especialmente si es la primera vez que te conectas.`
 
 ## Actualizaciones de seguridad
 Asegúrate de que tu máquina cliente tenga actualizaciones de seguridad instaladas, especialmente las relacionadas con la criptografía y las herramientas SSH. Mantener tu sistema actualizado reduce el riesgo de vulnerabilidades conocidas.
