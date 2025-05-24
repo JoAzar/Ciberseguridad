@@ -50,7 +50,7 @@ También podés ver puertos abiertos relacionados (111 TCP/UDP y puertos dinámi
 
 ### Recomendaciones adicionales
 
-`Si necesitás usar rpcbind, no exponer el puerto 111 a Internet`
+Si necesitás usar rpcbind, no exponer el puerto 111 a Internet
 
 ### Configurar un firewall para bloquear accesos externos
 
