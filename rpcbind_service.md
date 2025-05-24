@@ -56,3 +56,4 @@ Si necesitás usar rpcbind, no exponer el puerto 111 a Internet
 
 `sudo ufw deny from any to any port 111 proto tcp`
 `sudo ufw deny from any to any port 111 proto udp`
+
