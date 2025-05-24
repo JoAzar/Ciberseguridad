@@ -3,6 +3,9 @@
 ---
 
 - [ ] Hardening para SSH (OpenSSH)
+- [ ] Hardening para rpcbind
+- [ ] Control de imagenes maliciosas
+- [ ] Swap en Linux
 
 ---
 
