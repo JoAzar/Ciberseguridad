@@ -30,13 +30,11 @@ También podés ver puertos abiertos relacionados (111 TCP/UDP y puertos dinámi
 
 ### Parar los servicios
 
-`sudo service rpcbind stop`
-`sudo service nfs-common stop`
+`sudo service rpcbind stop && sudo service nfs-common stop`
 
 ### Evitar que se inicien al arrancar
 
-`sudo update-rc.d rpcbind disable`
-`sudo update-rc.d nfs-common disable`
+`sudo update-rc.d rpcbind disable && sudo update-rc.d nfs-common disable`
 
 ### Confirmar que no hay montajes NFS activos
 
