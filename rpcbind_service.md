@@ -57,3 +57,34 @@ Si necesitás usar rpcbind, no exponer el puerto 111 a Internet
 `sudo ufw deny from any to any port 111 proto tcp`
 `sudo ufw deny from any to any port 111 proto udp`
 
+
+# A tener en cuenta
+
+# Vulnerabilidades recientes en rpcbind
+
+### CVE-2017-8779 – Denegación de servicio (DoS) por consumo de memoria
+
+**Descripción**:  
+Las versiones de `rpcbind` anteriores a la **0.2.4**, junto con `libtirpc` hasta la **1.0.2-rc3** y `ntirpc` hasta la **1.4.3**, no consideran el tamaño máximo de los datos RPC al asignar memoria para cadenas XDR. Esto permite que atacantes remotos envíen paquetes UDP maliciosos al puerto 111, causando un **consumo excesivo de memoria** y una **denegación de servicio**.
+
+🔗 [Ver en GitHub Advisory](https://github.com/advisories/GHSA-fr7x-wc8q-h255)  
+🔗 [Ver en OpenCVE](https://app.opencve.io/cve/CVE-2017-8779)
+
+**Estado**:  
+A pesar de su antigüedad, esta vulnerabilidad sigue siendo relevante en sistemas que no han sido actualizados.
+
+---
+
+### CVE-2010-2064 – Escritura arbitraria de archivos mediante enlaces simbólicos
+
+**Descripción**:  
+La versión **0.2.0** de `rpcbind` permite a usuarios locales escribir en archivos arbitrarios mediante un ataque de enlace simbólico en los archivos `/tmp/portmap.xdr` y `/tmp/rpcbind.xdr`. Esto puede llevar a la **ejecución de código con privilegios elevados**
+
+🔗 [Ver en OpenCVE](https://app.opencve.io/cve/CVE-2010-2064)
+
+**Estado**  
+Aunque es una vulnerabilidad antigua, sigue siendo importante para sistemas que aún no han sido parchados
+
+---
+
+**Recomendación**: Mantené `rpcbind` y sus dependencias siempre actualizadas o desinstalalo si no lo necesitás
