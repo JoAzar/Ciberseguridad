@@ -20,3 +20,28 @@
 - Si necesitas **monitorización remota o integración avanzada**, puedes usar **Glances**, pero siempre configurando adecuadamente la seguridad de red y autenticación para minimizar riesgos
   
 - Para un uso seguro con Glances, limita el acceso al puerto solo a redes confiables, usa VPNs o túneles SSH, y mantenlo siempre actualizado para evitar vulnerabilidades conocidas
+
+---
+
+# Recomendación personal (queda a gusto de cada quien tomarlo o dejarlo)
+
+
+### Monitoreo remoto con SSH y htop
+
+- **Seguridad:**  
+  SSH ofrece un canal cifrado y autenticado para acceder remotamente al sistema, sin necesidad de abrir puertos adicionales para monitoreo.
+
+- **Funcionamiento:**  
+  Desde otra computadora, se conecta por SSH al servidor y ejecuta `htop` en la terminal remota, visualizando el uso de recursos y procesos en tiempo real.
+
+- **Ventajas:**  
+  - No se expone ningún puerto extra ni servicio web.  
+  - Usa el mismo canal seguro que para cualquier administración remota.  
+  - Reduce la superficie de ataque al mínimo.  
+  - No requiere configuraciones adicionales de servicios o autenticación fuera del SSH.
+
+- **Desventajas:**  
+  - No tiene interfaz gráfica web ni reportes automáticos.  
+  - Es necesario tener acceso SSH configurado y permisos adecuados.
+
+**Conclusión:** Para monitoreo remoto seguro sin abrir puertos extras, usar SSH con herramientas como `htop` es una solución muy eficaz y recomendada si no se requiere interfaz web o integración avanzada
