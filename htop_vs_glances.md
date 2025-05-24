@@ -45,3 +45,5 @@
   - Es necesario tener acceso SSH configurado y permisos adecuados.
 
 **Conclusión:** Para monitoreo remoto seguro sin abrir puertos extras, usar SSH con herramientas como `htop` es una solución muy eficaz y recomendada si no se requiere interfaz web o integración avanzada
+
+Creado por Favio Joel Zalazar
