@@ -6,6 +6,7 @@
 - [ ] Hardening para rpcbind
 - [ ] Control de imagenes maliciosas
 - [ ] Swap en Linux
+- [ ] Htop vs Glances
 
 ---
 
