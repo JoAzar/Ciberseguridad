@@ -4,7 +4,7 @@
 ## Contexto
 Durante una discusión reciente, un influencer afirmó que podía "hackear un servicio SSH versión 9.9 usando una vulnerabilidad parchada en la versión 7.0". Esta afirmación fue acompañada de un análisis cuestionable, ya que además la versión del servicio observada parecía ser 4.5. 
 
-En este documento desmentimos esa afirmación y explico por qué es incorrecta
+En este documento desmentimos (yo y fuentes como MitreAttack entre muchas otras) esa afirmación y explico por qué es incorrecta
 
 ---
 
