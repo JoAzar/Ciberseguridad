@@ -32,7 +32,7 @@ Agrega o modifica la configuración de la interfaz
 iface <interfaz> inet dhcp
     post-up /sbin/ethtool -s <interfaz> wol g`
 
-reinicia la red
+Reinicia la red
 
 `sudo systemctl restart networking`
 
