@@ -7,6 +7,7 @@
 - [ ] Control de imagenes maliciosas
 - [ ] Swap en Linux
 - [ ] Htop vs Glances
+- [ ] Linux zRAM swap
 
 ---
 
