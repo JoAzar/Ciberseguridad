@@ -2,6 +2,8 @@
 
 ## ¿Por qué zRAM es mejor que el swap tradicional?
 
+Usar zRAM es una forma inteligente y eficiente de mejorar el rendimiento en Linux, especialmente si tu equipo tiene recursos limitados
+
 El sistema de swap tradicional en Linux usa el **disco duro o SSD** para almacenar datos que no caben en la RAM. Aunque útil, esto tiene dos grandes problemas
 
 - **Es lento**: incluso los SSD son mucho más lentos que la RAM
@@ -43,4 +45,10 @@ PERCENT=50      #Porcentaje de RAM que se usará como zRAM
 ### Activá zRAM
 
 `sudo systemctl restart zramswap`
+
+### Revisamos que esté todo ok
+
+`swapon --show`
+
+Deberías ver /dev/zram0 en la lista de swap activos
 
