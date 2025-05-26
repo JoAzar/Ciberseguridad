@@ -8,6 +8,7 @@
 - [ ] Swap en Linux
 - [ ] Htop vs Glances
 - [ ] Linux zRAM swap
+- [ ] WoL
 
 ---
 
