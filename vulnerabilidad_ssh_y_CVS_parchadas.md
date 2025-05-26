@@ -47,7 +47,40 @@ Esto **sí representa un riesgo de seguridad real**, pero nuevamente, **no tiene
 
 3. **Pedí evidencia técnica real** (PoC, exploit funcional, CVE documentada)
 
-4. **No respondas con agresión**, respondé con datos y contexto técnico (quién soy yo para juzgar jaja)
+4. ¿Y qué pasa con herramientas como Hydra o Metasploit?
+
+Es común que algunas personas crean que herramientas como Hydra, Metasploit, sqlmap, etc. contienen 0-days secretos que permiten comprometer cualquier sistema
+
+Esto es falso
+
+
+✅ Lo que sí tienen
+
+    Módulos que explotan vulnerabilidades ya conocidas y públicamente documentadas (la mayoría referenciadas por su CVE).
+
+    Scripts de explotación para versiones vulnerables específicas.
+
+    Automatización para tareas como fuerza bruta, scanning, pivoting, etc.
+
+❌ Lo que NO tienen
+
+    Vulnerabilidades 0-day (no documentadas, no divulgadas).
+
+    Explotación mágica de sistemas actualizados y bien configurados.
+
+    ⚠️ Usar herramientas como Metasploit sin entender qué vulnerabilidad están explotando es como disparar sin saber a qué estás apuntando.
+
+### Ejemplo
+
+Un módulo de Metasploit podría explotar CVE-2007-3102 en OpenSSH 4.5, pero
+
+    No funcionará en OpenSSH 7.0+
+
+    Mucho menos en OpenSSH 9.9
+
+    Y tampoco representa "una vulnerabilidad nueva"
+
+Consejo, aprender a usar estas herramientas está bien, pero entender qué hacen, por qué lo hacen y contra qué versiones lo hacen es lo que te convierte en profesional
 
 ---
 
