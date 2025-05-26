@@ -46,6 +46,8 @@ PERCENT=50      #Porcentaje de RAM que se usará como zRAM
 
 `sudo systemctl restart zramswap`
 
+`sudo service restart zramswap`
+
 ### Revisamos que esté todo ok
 
 `swapon --show`
