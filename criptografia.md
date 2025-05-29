@@ -69,4 +69,6 @@ Número de operaciones: Aproximadamente O(log n) multiplicaciones modulares
 
 Para claves RSA de 2048 bits, esto implica cientos de operaciones, pero sigue siendo eficiente con computadoras modernas
 
-Creado por Favio Joel Zalazar, tomando fragmentos del libro
+---
+
+Creado por Favio Joel Zalazar
