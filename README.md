@@ -11,6 +11,7 @@
 - [ ] WoL
 - [ ] Riskware
 - [ ] Criptografía
+- [ ] Imagenes maliciosas
 
 ---
 
