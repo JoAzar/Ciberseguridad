@@ -10,7 +10,7 @@
 - [ ] Linux zRAM swap
 - [ ] WoL
 - [ ] Riskware
-- [ ] 
+- [ ] Criptografía
 
 ---
 
