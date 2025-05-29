@@ -9,6 +9,8 @@
 - [ ] Htop vs Glances
 - [ ] Linux zRAM swap
 - [ ] WoL
+- [ ] Riskware
+- [ ] 
 
 ---
 
