@@ -8,6 +8,8 @@ La criptografía es el conjunto de elementos y técnicas que permiten la comunic
 
 El emisor cifra un mensaje utilizando un algoritmo criptográfico y una clave. El receptor debe contar con un algoritmo equivalente y la misma clave o una clave relacionada para descifrar y recuperar el mensaje original.
 
+---
+
 ## 🔐 Cifrado César
 
 Uno de los métodos más simples de cifrado es la cifra de César. Su funcionamiento se basa en un desplazamiento del alfabeto. Si una letra del texto claro es la N-ésima del alfabeto, se reemplaza por la letra (N + K)-ésima, donde K es un entero fijo
@@ -21,6 +23,8 @@ Cifrado (K = 1): BUBRVF BM BNBODFDS
 
 🔓 Es un método débil, ya que solo existen 26 (o 27 en español) posibles desplazamientos, por lo que puede romperse fácilmente mediante fuerza bruta
 
+---
+
 ## 🔑 Cifrado de Vigenère
 
 La cifra de Vigenère utiliza una pequeña clave repetida a lo largo del texto. En cada paso, el índice de la letra de la clave se suma al de la letra del texto claro para generar la letra cifrada.
@@ -32,6 +36,8 @@ Texto claro: ATAQUE AL AMANECER
 Texto cifrado: BVDRWH ACO ACPBPHDGU
 
 🔒 Más segura que César, ya que la clave introduce variabilidad en cada letra. Sin embargo, sigue siendo vulnerable a análisis de frecuencia si la clave es corta.
+
+---
 
 ## 🔐🔓 Cifrado RSA (Criptografía de Clave Pública)
 
@@ -50,6 +56,8 @@ El receptor descifra el mensaje usando su clave privada: M = S(C)
 📜 Este esquema fue esbozado por Diffie y Hellman en 1976, y desarrollado formalmente por Rivest, Shamir y Adleman (RSA).
 
 🧮 Complejidad del cálculo en RSA
+
+--
 
 El cifrado RSA puede implicar operaciones como calcular: M^n mod N donde M es el mensaje como un número (posiblemente representado como un arreglo de enteros de K cifras), n y N son parte de la clave pública.
 
