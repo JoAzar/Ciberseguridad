@@ -57,7 +57,7 @@ El receptor descifra el mensaje usando su clave privada: M = S(C)
 
 🧮 Complejidad del cálculo en RSA
 
---
+---
 
 El cifrado RSA puede implicar operaciones como calcular: M^n mod N donde M es el mensaje como un número (posiblemente representado como un arreglo de enteros de K cifras), n y N son parte de la clave pública.
 
