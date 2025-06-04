@@ -13,6 +13,7 @@
 - [ ] Criptografía
 - [ ] Imagenes maliciosas
 - [ ] x11 | X Window System
+- [ ] Google dorking
 
 ---
 
