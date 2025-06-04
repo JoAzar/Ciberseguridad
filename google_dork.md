@@ -334,7 +334,7 @@ inurl:admin inurl:userlist Generic userlist files
 
 ---
 
-## Using special search string to find vulnerable websites
+## Busquedas especiales para encontrar vulnerabilidades en sitios web
 
 inurl:php?=id1
 
