@@ -2,7 +2,7 @@
 
 ## Programa para auditorias de sistemas Linux
 
----
+-
 
 ## Installing Lynis (diferentes versiones)
 
