@@ -14,6 +14,8 @@
 - [ ] Imagenes maliciosas
 - [ ] x11 | X Window System
 - [ ] Google dorking
+- [ ] Mails expuestos ANSES (colaboración con deber público y ciudadano)
+- [ ] Needrestart
 
 ---
 
