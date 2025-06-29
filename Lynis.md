@@ -2,7 +2,6 @@
 
 ## Programa para auditorias de sistemas Linux
 
--
 
 ## Installing Lynis (diferentes versiones)
 
@@ -10,13 +9,11 @@
 `sudo apt install lynis`
 `sudo dnf install lynis`
 
----
 
 ## Auditar sistema
 
 `sudo lynis audit system`
 
----
 
 ## Comentarios respecto a su uso
 
@@ -29,7 +26,6 @@ Hay muchos plugins, incluidos algunos para auditar con estándares, como GDPR, I
 
 `No hay mucha ciencia en esto, hay que ir revisando cada caso y reparando los fallas de seguridad`
 
----
 
 Creado por Favio Joel Zalazar
 
