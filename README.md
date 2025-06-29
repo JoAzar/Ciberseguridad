@@ -16,6 +16,7 @@
 - [ ] Google dorking
 - [ ] Mails expuestos ANSES (colaboración con deber público y ciudadano)
 - [ ] Needrestart
+- [ ] Lynis
 
 ---
 
