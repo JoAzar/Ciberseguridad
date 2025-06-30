@@ -40,3 +40,7 @@ PAM permite gestionar la autenticación de usuarios de forma centralizada y conf
 ## ¿Por qué es importante?
 
 PAM te permite mejorar la seguridad fácilmente aunque hay que manejarlo con mucho cuidado ya que podrías bloquear el sistema
+
+---
+
+Creado por Favio Joel Zalazar
