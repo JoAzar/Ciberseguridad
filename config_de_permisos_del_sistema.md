@@ -27,9 +27,11 @@
 
 ## R read/lectura | W write/escritura | X execute/ejecución
 
-| Usuario - Grupo - Otros |
----------------------------
-| R W X - R W X - R W X   |
+| Usuario (Owner) | Grupo (Group)  | Otros (Others) |
+|-----------------|----------------|----------------|
+| r (lectura)     | r (lectura)    | r (lectura)    |
+| w (escritura)   | w (escritura)  | w (escritura)  |
+| x (ejecución)   | x (ejecución)  | x (ejecución)  |
 
 ---
 
