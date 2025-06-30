@@ -18,6 +18,8 @@
 - [ ] Needrestart
 - [ ] Lynis
 - [ ] Desactivar Bluetooth
+- [ ] apt-listbugs
+- [ ] apt-listchanges
 
 ---
 
