@@ -20,6 +20,8 @@
 - [ ] Desactivar Bluetooth
 - [ ] apt-listbugs
 - [ ] apt-listchanges
+- [ ] libpam-tmpdir
+- [ ] pam
 
 ---
 
