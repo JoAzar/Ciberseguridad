@@ -18,6 +18,17 @@ PAM permite gestionar la autenticación de usuarios de forma centralizada y conf
 
 - Abrís una sesión gráfica o de consola
 
+## ¿Qué tipos de tareas maneja PAM?
+
+- `auth` 	Autenticación (verificar usuario y contraseña)
+
+- `account`	Control de acceso (¿puede este usuario iniciar sesión?)
+
+- `password`	Cambios de contraseña
+
+- `session`	Tareas al iniciar/cerrar sesión (como pam_tmpdir)
+
+
 ## ¿Por qué es importante?
 
 PAM te permite mejorar la seguridad fácilmente aunque hay que manejarlo con mucho cuidado ya que podrías bloquear el sistema
