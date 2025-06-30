@@ -23,7 +23,7 @@
 - [ ] libpam-tmpdir
 - [ ] pam
 - [ ] Permisos del sistema
-- [ ] Riesgos en aplicaciones/programas BETA
+- [ ] Riesgos en el uso/instalación de aplicaciones/programas BETA
 
 ---
 
