@@ -22,6 +22,7 @@
 - [ ] apt-listchanges
 - [ ] libpam-tmpdir
 - [ ] pam
+- [ ] Permisos del sistema
 
 ---
 
