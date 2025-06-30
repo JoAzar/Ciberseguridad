@@ -28,6 +28,14 @@ PAM permite gestionar la autenticación de usuarios de forma centralizada y conf
 
 - `session`	Tareas al iniciar/cerrar sesión (como pam_tmpdir)
 
+## Módulos más comunes/conocidos
+
+- `pam_unix.so`	Autenticación clásica con /etc/passwd y /etc/shadow
+- `pam_tally2.so`	Contador de intentos fallidos, bloqueo por fallos
+- `pam_faillock.so`	Bloqueo por intentos fallidos también
+- `pam_env.so`	Carga variables de entorno
+- `pam_tmpdir.so`	Crea un /tmp por usuario
+- `pam_exec.so`	Ejecuta un script al autenticarse
 
 ## ¿Por qué es importante?
 
