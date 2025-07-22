@@ -25,6 +25,7 @@
 - [ ] Permisos del sistema
 - [ ] Riesgos en el uso/instalación de aplicaciones/programas BETA
 - [ ] Configuración segura de DHCPv6
+- [ ] Configuración segura de puertos
 
 ---
 
